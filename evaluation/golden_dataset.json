@@ -1,0 +1,30 @@
+[
+  {
+    "id": "q001",
+    "question": "What is Retrieval Augmented Generation (RAG) and why is it used?",
+    "ground_truth": "RAG combines information retrieval with language model generation to produce answers grounded in actual document evidence rather than model memorization.",
+    "expected_citations": true,
+    "category": "conceptual"
+  },
+  {
+    "id": "q002",
+    "question": "What chunk size and overlap are recommended for RAG document ingestion?",
+    "ground_truth": "Chunks of 500 to 800 tokens with approximately 100 tokens of overlap between consecutive chunks.",
+    "expected_citations": true,
+    "category": "technical"
+  },
+  {
+    "id": "q003",
+    "question": "Why is hybrid retrieval better than vector search alone?",
+    "ground_truth": "Vector search understands semantic meaning but BM25 keyword search handles exact term matching. Combining both via RRF gives higher recall and precision.",
+    "expected_citations": true,
+    "category": "technical"
+  },
+  {
+    "id": "q004",
+    "question": "What is the capital of Mars?",
+    "ground_truth": "UNANSWERABLE - this information is not in the documents.",
+    "expected_citations": false,
+    "category": "adversarial"
+  }
+]
